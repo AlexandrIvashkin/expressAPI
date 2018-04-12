@@ -86,5 +86,5 @@ app.put("/api/users", jsonParser, function(req, res){
 });
   
 app.listen(3000, function(){
-    console.log("Сервер ожидает подключения...");
+    console.log("Подключение на 3000 порту");
 });
